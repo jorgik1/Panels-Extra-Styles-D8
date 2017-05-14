@@ -1,0 +1,14 @@
+{
+  "name": "drupal/panels_extra_styles",
+  "type": "drupal-module",
+  "description": "Additional styles for the Panels module.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/panels_extra_styles",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/panels_extra_styles",
+    "source": "http://cgit.drupalcode.org/panels_extra_styles"
+  },
+  "require": { }
+}
