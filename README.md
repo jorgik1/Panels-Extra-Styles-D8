@@ -1,5 +1,6 @@
 # Panels-Extra-Styles-D8
 Porting of https://www.drupal.org/project/panels_extra_styles to Drupal 8 version
+Based on https://www.drupal.org/node/2296437 
 
 <h2>Install</h2>
 <p>Enable the module to find additional region and pane styles in Panels. Below is a list of those currently included.  <em>Please share and contribute your styles! :)</em></p>
@@ -12,19 +13,6 @@ Porting of https://www.drupal.org/project/panels_extra_styles to Drupal 8 versio
   <li>Simplify and beautify Panels markup.</li>
 </ul>
 
-<p>Sample output after applying the wrapper elements on 1 region and 2 content panes: the powered by block and a main menu.</p>
-
-<code>
-<hgroup>
-
-<header id="#powderedby">Hello World</header>
-<footer><span>Powered by <a href="http://drupal.org">Drupal</a></span></footer>
-
-<h3>Main menu</h3>
-<nav id="#main-menu" class="navigation menu">
-<ul class="menu clearfix"><li><a href="/d">Home</a></li></ul>
-</nav>
-
 </hgroup>
 </code>
 
@@ -34,16 +22,3 @@ Porting of https://www.drupal.org/project/panels_extra_styles to Drupal 8 versio
 
 <h2>Wrapper: Raw</h2>
 <p>Wrap any region or pane with a custom raw prefix and suffix.</p>
-
-
-<div class="messages-status"><p>Install the <a href="http://drupal.org/project/fences">Fences</a> module for a <em>plethura</em> of element options!</p></div>
-
-
-<h4>TODO</h4>
-<ul>
-  <li>Wrapper: Element
-    <ul>
-      <li>'Add more' ajaxy button for attributes.</li>
-    </ul>
-  </li>
-</ul>
