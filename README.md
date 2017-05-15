@@ -2,8 +2,10 @@
 Porting of https://www.drupal.org/project/panels_extra_styles to Drupal 8 version
 Based on https://www.drupal.org/node/2296437 
 
+
 <h2>Install</h2>
 <p>Enable the module to find additional region and pane styles in Panels. Below is a list of those currently included.  <em>Please share and contribute your styles! :)</em></p>
+
 
 <h2>Panels Wrapper</h2>
 <p>Wrap your panes and regions with unlimited possibilities.</p>
@@ -12,6 +14,7 @@ Based on https://www.drupal.org/node/2296437
   <li>Add custom containers and HTML.</li>
   <li>Simplify and beautify Panels markup.</li>
 </ul>
+
 
 </hgroup>
 </code>
